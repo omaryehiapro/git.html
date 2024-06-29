@@ -1,0 +1,251 @@
+:root{
+
+    --primary-color:hsl(166, 91%, 48%);
+    --secondry-color:#1ABC9C;
+    --main-font: font-family: 'lato' , sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: header-box;
+
+}
+
+body{
+    font-family: Arial, sans-serif;
+}
+a{
+ 
+    text-decoration: none;
+    font-size: 1.3rem;
+    color:white
+
+}
+
+header{
+width: 100%;
+ background-color: white;
+ 
+}
+.mark-container{
+    text-align: center;
+    font-size: 1.2rem;
+
+}
+.mark{
+    background-color: rgb(255, 255, 255);
+    font-style: italic;
+}
+.head{
+    justify-content: space-around;
+    display: flex;
+    margin: 5px 5 5px 0;
+
+}
+.social-link{
+  
+    text-decoration: none;
+    padding-right: 2px;
+    
+}
+.whatsapp-brand{
+  
+    color: #25D366;
+    font-size: 20px;
+    border-radius: 15px;
+    box-shadow: 16px;
+    box-sizing: content-box;
+    transition: 3s ease-in-out;
+}
+.whatsapp-brand:hover{
+    color: rgba(85, 201, 35, 0.792);
+    padding: 3px;
+    border-radius: 10px;
+}
+.facebook-brand{
+    color: rgb(40, 40, 177);
+    font-size: 15px;
+    border-radius: 3px;
+    box-shadow: 16px;
+    box-sizing: content-box;
+    transition: 3s ease-in-out;
+}
+.facebook-brand .hover{
+    color:  rgb(44, 44, 196);
+    padding: 3px;
+    border-radius: 10px;
+}
+.instagram-brand{
+
+    color: rgb(207, 13, 207);
+    font-size: 15px;
+    border-radius: 3px;
+    box-shadow: 16px;
+    box-sizing: content-box;
+    transition: 3s ease-in-out;
+}
+.instagram-brand .hover{
+    color: purple;
+    padding: 3px;
+    border-radius: 10px;
+
+    
+}
+.linkedin-brand{
+    color: rgb(75, 92, 160);
+    font-size: 15px;
+    border-radius: 3px;
+    box-shadow: 16px;
+    box-sizing: content-box;
+    transition: 3s ease-in-out;
+
+}.linkedin-brand .hover{
+    color: rgb(26, 33, 72);
+    padding: 3px;
+    border-radius: 10px;
+
+    
+}
+
+.navbar{
+    
+    padding-left: 15px;
+    padding-right: 30px;
+    margin-top: 50px;
+
+background-color:rgb(14, 15, 15);
+
+width: 100%;
+height: 30px;
+margin: 0;
+
+}
+.navbar-container{
+
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+
+a{
+
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 1.2rem;
+
+}
+  ul li{
+   margin-bottom: 1.5rem;
+    margin-right: 25px;
+    float: right;
+    list-style: none;
+  
+}
+
+.navbar-logo a{
+   
+     font-size: 1.5rem;
+     color:rgb(243, 235, 235);
+    font-weight: bold;
+}
+footer {
+    background-color: #000000;
+    color: #ddd;
+    padding: 10px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 15%;
+  }
+  .footer-container {
+    display: flex;
+   
+
+  }
+
+  .contact-us {
+    color: #ffffff;
+    text-align: left;
+    margin: 0 10px;
+  }
+  
+  
+  .contact-us  p{
+    
+    margin-bottom: 10px;
+  }
+  
+  .follow-us  {
+    text-align: left;
+    margin: 0 20px;
+  }
+  
+  .follow-us a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  
+  .about-us  {
+    color: #ffffff;
+    text-align: left;
+    margin: 0 20px;
+  }
+  .about-us p{
+ margin-bottom:10px;
+
+  }
+  
+  .copyright {
+    color: #ffffff;
+    margin: 0 20px;
+    margin-top: 2.0rem;
+    align-items: end;
+  }
+  
+  
+.text-container h2{
+    color: #1ABC9C;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    text-decoration: underline;
+}
+.text-container h3{
+    color: #1ABC9C;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    text-decoration: underline;
+}
+.icons {
+  
+    text-decoration: none;
+    display: inline-block;
+    width: 50%;
+    background-size: contain;
+    
+}
+.phone{
+   
+    color: #ba0404;
+   font-size: larger;
+   
+}
+.email{
+    color: #ba0d44;
+}
+.prog{
+  
+    color: #ba0d44;
+
+}
+
+
+
+
+
+  
+
+
+
