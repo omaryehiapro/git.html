@@ -1,0 +1,35 @@
+.calculator{
+    display: grid;
+   grid-template-columns:  repeat(4,1fr);
+   background-color: black;
+   width: 25%;
+   
+}
+button{
+  
+      height: 50px;
+      background-color: black;
+      color: white;
+      border: 1px solid white;
+      border-radius: 5px;
+      font-size: 20px;
+      font-family: 'Times New Roman', Times, serif;
+     
+
+
+     
+}
+.display{
+    height: 50px;
+    background-color:  gray;
+    margin-bottom: 5px;
+    grid-column: 1/-1;
+}
+.orange{
+    background-color: orange;
+
+}
+.gray{
+    background-color: gray;
+
+}
