@@ -1,0 +1,207 @@
+:root{
+
+    --primary-color:hsl(171, 23%, 94%);
+    --secondry-color:#1ABC9C;
+    --main-font: font-family: 'lato' , sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: header-box;
+
+}
+a{
+    text-decoration: none;
+    font-size: 1rem;
+    color:aliceblue
+
+}
+.navbar{
+   
+    background-color:rgb(2, 19, 88) ;
+  
+
+}
+.navbar .navbar-container{
+
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem ;
+  
+}
+ul li{
+  display: inline-block;
+   padding-left: 5px;
+   padding-right: 5px;
+    list-style: none;
+ 
+
+}
+.logo{
+    font-size: 1.2rem;
+    color:rgb(241, 239, 239);
+   font-weight: bold;
+
+}
+   
+ul li a{
+    font-style: unset;
+    transition:all 3.3 ease-out;    
+}
+ul li a:hover{
+    color:rgb(27, 71, 246);
+    font-size: 1.2rem;
+    font-weight: bold;
+    background-color: rgb(255, 255, 255);
+   padding: 3px;
+   border-radius: 5px;
+}
+.showcase{
+    color: rgb(255, 255, 255);
+    background-image: url(./images/wallpaperflare.com_wallpaper.jpg); 
+  
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 180px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.showcase{
+
+    display: flex;
+    justify-content: center;
+   
+   
+}
+
+.showcase  a{
+
+    background-color: rgb(2, 19, 88);
+   font-size: 1.1rem;
+   padding:5px ;
+
+   border-radius: 30px;
+    transition: all 1.6s ease-in;
+
+}
+.about    p ,
+.showcase p{
+
+    font-size: 1.3rem;
+    width: 60%;
+    margin: 5px auto;
+}
+.about{
+    color: rgb(255, 255, 255);
+     background-image: url(./images/wallpaperflare.jpg); 
+    text-align: center;
+    padding-bottom: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.about{
+   
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.about  a{
+font-size: 1.1rem;
+    background-color: rgb(2, 19, 88);
+    color:rgb(255, 255, 255);
+    padding:5px ;
+    border-radius: 30px;
+    transition: all 1.6s ease-in;
+    
+
+}
+.about p{
+
+}
+.container-3{
+   
+
+justify-content: space-around; 
+
+background-image: url(./images/code.jpeg); 
+
+}
+.container-3 h2{
+    color: rgb(255, 255, 255);
+}
+.content1{
+    background-color: #148ef3;
+    margin: 10px;
+    margin-left: 200px;
+   display: inline-block;
+   border-radius: 5px;
+    
+ 
+}
+.content1{
+    background-color: #148ef3;
+    margin: 10px;
+    margin-left: 200px;
+   display: inline-block;
+   border-radius: 5px;
+    
+ 
+}
+.content2{
+    background-color: #14f3d9;
+    margin: 10px;
+    margin-left: 200px;
+   display: inline-block;
+   border-radius: 5px;
+    
+ 
+}
+.content3{
+    background-color: #f3a114;
+    margin: 10px;
+    margin-left: 200px;
+   display: inline-block;
+   border-radius: 5px;
+    
+ 
+}
+.content4{
+    background-color: #f31478;
+    margin: 10px;
+    margin-left: 200px;
+   display: inline-block;
+   border-radius: 5px;
+    
+ 
+}
+.icon{
+    display: inline-block;
+    font-size: 1.3rem;
+    
+}
+ 
+.accounts h2{
+color: aliceblue;
+}
+.box-container{
+   
+    display: flex;
+    background-color: rgb(2, 19, 88);
+}
+.box{
+ 
+    margin: 5px;
+}
+.box button a{
+    background-color: rgb(2, 19, 88);
+    color:rgb(255, 255, 255);
+    border-radius: 5px;
+
+}
