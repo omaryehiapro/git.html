@@ -20,14 +20,14 @@ else{
 //compute the circle area and circumference
 
 
-soultion1
+//soultion1
 var radius = prompt('enter the radius of the circle');
 var area = Math.PI * radius * radius;
 var circumference = 2 * Math.PI * radius;
 
 
 
-solution2
+//solution2
 var radius = prompt('enter your radius of the circle');
 i = 3.14;
 var area = i * radius * radius;
